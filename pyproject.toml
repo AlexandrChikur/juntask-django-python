@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "juntask-django-python"
+version = "0.1.0"
+description = "Implementation of a test task for a junior position using technologies such as Django, DRF, Docker, etc."
+authors = ["AlexandrChikur <alexandr.chikur@mail.ru>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+Django = "^3.1.4"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
